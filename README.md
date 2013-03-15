@@ -12,7 +12,7 @@ NAME if you don't like the full name emacs picked for you.
 One way to install is to put this somewhere where emacs
 finds libraries, then `(load-library "copyright")`.
 
-This code should decide whether to insert &copy; or (c)
-depending on the current buffer's encoding. It currently
-does not.
+This code should decide whether to insert &copy;,
+&amp;copy; or (c) depending on the current buffer's
+encoding. It currently does not.
 
